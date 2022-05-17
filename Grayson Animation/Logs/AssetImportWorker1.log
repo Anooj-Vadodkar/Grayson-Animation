@@ -1,0 +1,623 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.16f1 (559fc0ec6670) revision 5611456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18362) 64bit Core' Language: 'en' Physical Memory: 8066 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/anooj/Desktop/Grayson-Animation/Grayson Animation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52419
+Successfully changed project path to: C:/Users/anooj/Desktop/Grayson-Animation/Grayson Animation
+C:/Users/anooj/Desktop/Grayson-Animation/Grayson Animation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 150.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.16f1 (559fc0ec6670)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anooj/Desktop/Grayson-Animation/Grayson Animation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   23.21.13.8899
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008355 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 154.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2152ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1738ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (577ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (182ms)
+			SetupLoadedEditorAssemblies (681ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.1 KB). Loaded Objects now: 3680.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 5.340600 ms (FindLiveObjects: 0.630300 ms CreateObjectMapping: 0.298000 ms MarkObjects: 4.277500 ms  DeleteObjects: 0.133600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015529 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.183 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2184ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1711ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (778ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (591ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3684.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 3.445700 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.231600 ms MarkObjects: 2.797500 ms  DeleteObjects: 0.109000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016105 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2035ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1545ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3687.
+Memory consumption went from 112.3 MB to 112.2 MB.
+Total: 11.204300 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.306700 ms MarkObjects: 10.328900 ms  DeleteObjects: 0.150000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20655.873444 seconds.
+  path: Assets/MoveCamera.cs
+  artifactKey: Guid(6e60189528bcdde4a91c1a8ee949b219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveCamera.cs using Guid(6e60189528bcdde4a91c1a8ee949b219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81aede638c6ce8904618dd422ce435b') in 0.059946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.916048 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0000_map_Kd.png
+  artifactKey: Guid(639adffd4a95a3546bce233eab698beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0000_map_Kd.png using Guid(639adffd4a95a3546bce233eab698beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705cb744b5b8ff2ecd1ee4fd866bb893') in 0.114041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0034_map_Kd.png
+  artifactKey: Guid(b78e5f32365c704498ba4211de67b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0034_map_Kd.png using Guid(b78e5f32365c704498ba4211de67b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510586cab8f76d5639ab7c862078a89b') in 0.024265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0029_map_Kd.png
+  artifactKey: Guid(807799d9a4c39564f9e37375c90ee20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0029_map_Kd.png using Guid(807799d9a4c39564f9e37375c90ee20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d0b50e79b85e5040a943ef6c2ecc4e') in 0.031919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0016_map_Kd.png
+  artifactKey: Guid(d0a9ebfa1bc8b3b43809462a7d5df4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0016_map_Kd.png using Guid(d0a9ebfa1bc8b3b43809462a7d5df4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3ca97d5fee150c075caa11d605cd26') in 0.028199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0024_map_Kd.png
+  artifactKey: Guid(e00d77d3ae322b2479b29bf0f0ffce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0024_map_Kd.png using Guid(e00d77d3ae322b2479b29bf0f0ffce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e75c842188523314eaf75497dfe43e3') in 0.035501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0026_map_Kd.png
+  artifactKey: Guid(6874f65184bd84d4083a8d2ae1c5612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0026_map_Kd.png using Guid(6874f65184bd84d4083a8d2ae1c5612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb76a6c148467e9e87d3b5812d16b4a') in 0.033775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0031_map_Kd.png
+  artifactKey: Guid(5a51cf7800980304bb7677caae7b6d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0031_map_Kd.png using Guid(5a51cf7800980304bb7677caae7b6d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f378c288abad04b356360ce2629fff') in 0.025412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0006_map_Kd.png
+  artifactKey: Guid(4b6d6bdbd2e7ceb4ca10391b66830051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0006_map_Kd.png using Guid(4b6d6bdbd2e7ceb4ca10391b66830051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71af16e7841607d1ceaa9baf3bd4fc4d') in 0.026962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0004_map_Kd.png
+  artifactKey: Guid(10306dbc0fbb73249a75d2dba1f137a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0004_map_Kd.png using Guid(10306dbc0fbb73249a75d2dba1f137a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43117a1a799a535d87834822c3159367') in 0.029379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0020_map_Kd.png
+  artifactKey: Guid(1248412273df6f741b48c0eb3f152210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0020_map_Kd.png using Guid(1248412273df6f741b48c0eb3f152210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e0cfabbeed0ea86f1ca279d97e0059') in 0.025506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0033_map_Kd.png
+  artifactKey: Guid(51628059d9f67274db64af97662c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0033_map_Kd.png using Guid(51628059d9f67274db64af97662c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5551e45aab9928816b738afa3cd1a5') in 0.024787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0021_map_Kd.png
+  artifactKey: Guid(e9a3bb37a9851434fb2a101dc2df7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0021_map_Kd.png using Guid(e9a3bb37a9851434fb2a101dc2df7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6266b34cde2ca37181a387767297da') in 0.025237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0022_map_Kd.png
+  artifactKey: Guid(59cf1e9e39f4fed4684be99073e4a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0022_map_Kd.png using Guid(59cf1e9e39f4fed4684be99073e4a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78951b0cfb443f299ef5062578797d6b') in 0.022411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0010_map_Kd.png
+  artifactKey: Guid(f6eea89898e3e9f4096435608f184f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0010_map_Kd.png using Guid(f6eea89898e3e9f4096435608f184f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b316c7a151fb364ad4f04901460fafbf') in 0.023635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0013_map_Kd.png
+  artifactKey: Guid(2f98ebf332df1074eacc14cf205108fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0013_map_Kd.png using Guid(2f98ebf332df1074eacc14cf205108fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3a74bfbbf0f15ad8e03b0a6df8231d') in 0.023468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0028_map_Kd.png
+  artifactKey: Guid(5f418d7bf35de2f44a9e5dd4b9053ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0028_map_Kd.png using Guid(5f418d7bf35de2f44a9e5dd4b9053ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d2ada7fa62de528ed05d279f4718db') in 0.024603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0019_map_Kd.png
+  artifactKey: Guid(2f3799ea94943134fb80910dbb73101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0019_map_Kd.png using Guid(2f3799ea94943134fb80910dbb73101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281c864cc69e5823934ecd072c21d61') in 0.020849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0001_map_Kd.png
+  artifactKey: Guid(20db6fa20d7c37c4f81efa8a7b5502e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0001_map_Kd.png using Guid(20db6fa20d7c37c4f81efa8a7b5502e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd47224242f009f42f5e1a2b0612ec4') in 0.030598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0011_map_Kd.png
+  artifactKey: Guid(6acbc3bc449bb9847b8a88d299b89fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0011_map_Kd.png using Guid(6acbc3bc449bb9847b8a88d299b89fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cec0b8929896355727a522c368a7cb1') in 0.036145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0003_map_Kd.png
+  artifactKey: Guid(46e2205acdfe0244b81cce3b7df60573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0003_map_Kd.png using Guid(46e2205acdfe0244b81cce3b7df60573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba855691e065c5496fbf0da3f69b424') in 0.039810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0009_map_Kd.png
+  artifactKey: Guid(04a05b94bb106f348958228ce2a7b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0009_map_Kd.png using Guid(04a05b94bb106f348958228ce2a7b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26532a201114122e3bf4cb35fd4e4cd') in 0.065630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0025_map_Kd.png
+  artifactKey: Guid(7c4b363d05e2d0242a5653d14e5cc28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0025_map_Kd.png using Guid(7c4b363d05e2d0242a5653d14e5cc28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922a700e852e371214e3c773794c8081') in 0.035614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0007_map_Kd.png
+  artifactKey: Guid(718f3df7a17f9de4997d70f01f789618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0007_map_Kd.png using Guid(718f3df7a17f9de4997d70f01f789618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436efae36e703866b1e4d0bfd26d51c1') in 0.040392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0023_map_Kd.png
+  artifactKey: Guid(d5a148e663724ab4bbf0c34a4aaf496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0023_map_Kd.png using Guid(d5a148e663724ab4bbf0c34a4aaf496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c83f6d9c45bc6ecf0c484fc7f7ce30') in 0.036397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0032_map_Kd.png
+  artifactKey: Guid(fb9ba811dba35864db436a4afa7524ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0032_map_Kd.png using Guid(fb9ba811dba35864db436a4afa7524ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7325b00a429b5ee2561a8a8db73c0c6b') in 0.049139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0037_map_Kd.png
+  artifactKey: Guid(d5042ee03f9f2584f9be24d007dbd0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0037_map_Kd.png using Guid(d5042ee03f9f2584f9be24d007dbd0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0294167d6205333cfe282dd7805b7f04') in 0.089246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0035_map_Kd.png
+  artifactKey: Guid(6b6bd6923c2ec564089a746152fc3060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0035_map_Kd.png using Guid(6b6bd6923c2ec564089a746152fc3060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d0770a0d8788d7573c7268e6feca0') in 0.065327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0015_map_Kd.png
+  artifactKey: Guid(055c4d4c7671ad04ebf6c6d857c3e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0015_map_Kd.png using Guid(055c4d4c7671ad04ebf6c6d857c3e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077e83c2c2307d4907ef3dfcaef7a28f') in 0.106644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0030_map_Kd.png
+  artifactKey: Guid(e3d47953ec52c7346b180537f918a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0030_map_Kd.png using Guid(e3d47953ec52c7346b180537f918a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0426f3385bb965fada94bad966a19') in 0.056408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0039_map_Kd.png
+  artifactKey: Guid(1ce603a36783dbc418afe7ded499accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0039_map_Kd.png using Guid(1ce603a36783dbc418afe7ded499accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58baae4da714f541751753f8621eb77') in 0.045636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0012_map_Kd.png
+  artifactKey: Guid(fac4d26405ffaee48ae779ff0287efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0012_map_Kd.png using Guid(fac4d26405ffaee48ae779ff0287efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f12d6eec63ee0bda9532e30a90b508b') in 0.031027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0002_map_Kd.png
+  artifactKey: Guid(ae670e87658369740b60116653bda922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0002_map_Kd.png using Guid(ae670e87658369740b60116653bda922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e6a23d2500216ce615b192f0dda361') in 0.071244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0008_map_Kd.png
+  artifactKey: Guid(df41f7ae01c713846b8127b42305a249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0008_map_Kd.png using Guid(df41f7ae01c713846b8127b42305a249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a56d8403f2c755d6cb7337d2690286') in 0.050640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0038_map_Kd.png
+  artifactKey: Guid(80f078f5f345c0941af867192e553166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0038_map_Kd.png using Guid(80f078f5f345c0941af867192e553166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dd75898f28fb85631b9d6da7e65c5f') in 0.040452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0018_map_Kd.png
+  artifactKey: Guid(6f24f78249c791841848a6740c2d782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0018_map_Kd.png using Guid(6f24f78249c791841848a6740c2d782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9d4d38de3112ab51aa003395a19ce3') in 0.035057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0036_map_Kd.png
+  artifactKey: Guid(63e77f0534459a74ebcfc4ed93375ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0036_map_Kd.png using Guid(63e77f0534459a74ebcfc4ed93375ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f3daa05d53a5ab7a2af9e04c1b12fd') in 0.041550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/odm_texturing/odm_textured_model_geo_material0017_map_Kd.png
+  artifactKey: Guid(2261a1d33c3f8f14380195818c2f79f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/odm_texturing/odm_textured_model_geo_material0017_map_Kd.png using Guid(2261a1d33c3f8f14380195818c2f79f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43f0926def0714f160a20fa0adc9b73') in 0.050777 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2263ms)
+		BeginReloadAssembly (426ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (1517ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (574ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3692.
+Memory consumption went from 112.4 MB to 112.3 MB.
+Total: 5.889700 ms (FindLiveObjects: 0.504300 ms CreateObjectMapping: 0.581600 ms MarkObjects: 4.674000 ms  DeleteObjects: 0.128500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anooj\Desktop\Grayson-Animation\Grayson Animation\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (79.0 KB). Loaded Objects now: 3695.
+Memory consumption went from 112.4 MB to 112.3 MB.
+Total: 4.915800 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.181000 ms MarkObjects: 4.329900 ms  DeleteObjects: 0.121000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
